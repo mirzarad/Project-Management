@@ -19,7 +19,7 @@ public class Employee {
 	
 	@ManyToOne
 	@JoinColumn(name="project_id")
-	private Project theProject;
+	private Project project;
 	
 	public Employee() {
 		
@@ -54,6 +54,14 @@ public class Employee {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public Project getProject() {
+		return project;
+	}
+
+	public void setProject(Project project) {
+		this.project = project;
 	}
 	
 }
