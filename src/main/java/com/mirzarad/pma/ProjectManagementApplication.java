@@ -3,15 +3,10 @@ package com.mirzarad.pma;
 import java.util.Arrays;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-
 import com.mirzarad.pma.dao.EmployeeRepository;
 import com.mirzarad.pma.dao.ProjectRepository;
-import com.mirzarad.pma.entities.Employee;
-import com.mirzarad.pma.entities.Project;
 
 @SpringBootApplication
 public class ProjectManagementApplication {
@@ -30,7 +25,7 @@ public class ProjectManagementApplication {
 	}
 	
 	
-	
+/*	
 	@Bean
 	CommandLineRunner runner() {
 		
@@ -99,7 +94,7 @@ public class ProjectManagementApplication {
 			
 			
 		};
-		
+
 	}
-	
+*/
 }
