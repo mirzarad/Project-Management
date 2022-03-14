@@ -16,8 +16,6 @@ public class ProjectManagementApplication {
 	
 	@Autowired
 	ProjectRepository projRepo;
-
-	
 	
 	public static void main(String[] args) {
 		
