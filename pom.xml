@@ -8,8 +8,9 @@
 		<version>2.6.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>com.mirzarad.pma</groupId>
 	<artifactId>project-management</artifactId>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>project-management</name>
 	<description>PMA: Project Management Application</description>
