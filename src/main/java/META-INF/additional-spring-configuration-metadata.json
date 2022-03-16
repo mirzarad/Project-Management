@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "version",
+  "type": "java.lang.String",
+  "description": "Version number for PMA Application should come from Environmental Variables"
+}]}
